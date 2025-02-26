@@ -1,0 +1,251 @@
+{
+  "search": {
+    "placeholder": "SEARCH_",
+    "allLanguages": "LANGUAGES",
+    "allTypes": "TYPES",
+    "allFollowers": "FOLLOWERS",
+    "filteredKols": "FILTERED_KOLS:",
+    "executeSearch": "EXECUTE",
+    "filters": "FILTERS",
+    "clearAll": "CLEAR",
+    "allFocusAreas":"TAGS",
+    "progress": {
+      "gettingInfo": "Getting information...",
+      "searchingUser": "Searching user info...",
+      "searchingProject": "Searching CA...",
+      "analyzingProject": "Analyzing ...",
+      "searchingTwitter": "Searching Tweets..."
+    },
+    "tweetDetails": "Tweet Details",
+    "searchResults": "Search Results",
+    "history": {
+      "title": "Search History",
+      "clear": "Clear History",
+      "searching": "Searching...",
+      "loading": "Loading...",
+      "noResults": "No results found"
+    }
+  },
+  "nav": {
+    "kols": "[KOLS_]",
+    "links": "[LINKS_]",
+    "console": "[AGENT_]",
+    "switchToCN": "[CN_]",
+    "switchToEN": "[EN_]",
+     "about": "[ABOUT_]"
+  },
+  "footer": {
+    "twitter": "X_",
+    "telegram": "TG_",
+    "lastUpdate": "LAST_UPDATE_",
+    "slogan": "Your Web3 Gateway",
+    "allRightsReserved": "All Rights Reserved"
+  },
+  "console": {
+    "nav": {
+      "main": "AGENT//",
+      "about": "About//",
+      "hunter": "ZODIAC//"
+    },
+    "hunter": {
+      "comingSoon": "Coming Soon..."
+    }
+  },
+  "pagination": {
+    "prev": "PREV_",
+    "next": "NEXT_",
+    "page": "PAGE_",
+    "go": "GO_"
+  },
+  "common": {
+    "loading": "Loading...",
+    "noResults": "NO_RESULTS_FOUND_",
+    "showMore": "Show more",
+    "showMore1": "Show more ({{count}})",
+    "showLess": "Show less",
+    "retry": "Retry",
+    "copy": {
+      "button": "Copy address",
+      "success": "Copied"
+    },
+    "translate": {
+      "button": "Translate",
+      "loading": "Translating...",
+      "show": "Show translation",
+      "hide": "Hide translation"
+    },
+    "expand": {
+      "show": "Expand",
+      "hide": "Collapse"
+    },
+    "noData": "No data",
+    "error": {
+      "server": "Server error",
+      "copy": "Copy failed",
+      "translate": "Translation error",
+      "fetch": "Failed to fetch data"
+    }
+  },
+  "log": {
+    "connecting": "Connecting...",
+    "loading": "Loading...",
+    "whyNotReply": "Why Not Reply",
+    "says": "says",
+    "analysisFailed": "Analysis Failed",
+    "foundTweets": "Found {{count}} tweets today",
+    "noTweetsToday": "No tweets today",
+    "analysisCompleted": "Analyzed {{count}} tweets",
+    "executingNewSearchBatch": "EXECUTING NEW SEARCH",
+    "batchAnalysisStarted": "Analysis Started",
+    "activeUsers": "Analysis Active Users: {{count}}",
+    "newMessage": "Latest Log",
+    "tweetSuccess": "Tweet Success",
+    "replySuccess": "Reply Success",
+    "analyzedTweet":"New LOG",
+    "enterContent": "Please enter the content to search",
+    "invalidAddress": "Please enter a valid address",
+    "promotionCount": "{{count}} Promotions",
+    "smartMoneyCount": "{{count}} Smart Money",
+    "price": "Price",
+    "volume": "Vol",
+    "marketCap": "MC",
+    "priceChange": {
+      "h24": "24h",
+      "h1": "1h"
+    },
+    "unknownToken": "Unknown Token",
+    "contractAddress": "Contract Address",
+    "socialLinks": {
+      "twitter": "Twitter",
+      "telegram": "Telegram",
+      "website": "Website"
+    },
+    "smartMoneySignal": "Smart Money Signal",
+    "communitySignal": "Community Signal",
+    "description": "Description",
+    "noDescription": "No description available",
+    "tokenInfo": "Token Info",
+    "created": "Created",
+    "pinned": {
+      "title": "Welcome to AIPHA",
+      "description": "I am AIPHA, your Web3 AI agent. I track smart money movements and analyze social trends to help you discover opportunities in real-time.",
+      "timestamp": "Pinned Message"
+    }
+  },
+  "preview": {
+    "websitePreview": "Website Preview",
+    "collapseHint": "(Collapse to mute sound, some websites may not support embedding, try opening in a new tab)",
+    "openInNewTab": "Open in new tab",
+    "enterFullscreen": "Enter fullscreen",
+    "exitFullscreen": "Exit fullscreen",
+    "clickToExpand": "Click to expand website preview",
+    "loadingFailed": "Failed to load website"
+  },
+  "analysis": {
+    "title": "AI Analysis",
+    "aiDisclaimer": "AI analysis is for reference only, please DYOR",
+    "description": "I am AIPHA, your Web3 AI agent. I track smart money movements and analyze social trends to help you discover opportunities in real-time. By collecting and analyzing on-chain data, social media signals, and market trends, I provide you with comprehensive insights and AI-powered analysis.",
+    "description2": "AIPHA is a cutting-edge Web3 AI agent that combines real-time smart money tracking with social sentiment analysis. By monitoring blockchain transactions and social media trends, it identifies potential investment opportunities and market movements. The system processes vast amounts of on-chain data and social signals to provide users with timely insights into emerging projects and market dynamics. Through advanced AI algorithms, it analyzes collected information and delivers comprehensive market intelligence to help users make informed decisions."
+  },
+  "profile": {
+    "userInfo": "User Info",
+    "openInTwitter": "Open in ",
+    "joinedAt": "Joined: {{date}}",
+    "followers": "Followers",
+    "following": "Following",
+    "tweets": "Tweets",
+    "likes": "Likes",
+    "website": "Website"
+  },
+  "tweets": {
+    "userTweets": "User Tweets",
+    "tweetDetails": "Tweet Details",
+    "searchResults": "Search Results",
+    "openInTwitter": "Open in ",
+    "searchInTwitter": "Search in "
+  },
+  "errors": {
+    "connectionLost": "Connection lost",
+    "accountSuspended": "User twitter account has been suspended, analysis stopped"
+  },
+  "token": {
+    "devTokens": {
+      "title": "Developer's Other Tokens",
+      "loading": "Loading token list...",
+      "empty": "No other tokens found"
+    },
+    "description": {
+      "label": "Description:"
+    },
+    "analytics": {
+      "priceChart": "Price Chart",
+      "distribution": "Token Distribution"
+    },
+    "chart": {
+      "loading": "Loading chart...",
+      "error": "Failed to load chart"
+    }
+  },
+  "filter": {
+    "title": "Filters",
+    "timeRange": "Time Range",
+    "all": "All",
+    "marketCap": "Market Cap",
+    "min": "Min",
+    "max": "Max",
+    "signalTypes": "Signal Types",
+    "community": "Community",
+    "smartMoney": "Smart Money",
+    "apply": "Apply",
+    "cancel": "Reset",
+    "promotion": "Promotion Signal",
+    "promotionOnly": "First Promotion Only"
+  },
+  "sound": {
+    "title": "Sound Settings",
+    "settings": "Sound",
+    "enable": "Enable Sound",
+    "smartMoneyThreshold": "Smart Money Threshold",
+    "communityThreshold": "Community Threshold",
+    "maxPlays": "Maximum Plays",
+    "testSound": "Test Sound",
+    "timeFilter": {
+      "label": "Time Filter",
+      "all": "All Time",
+      "1h": "Last Hour",
+      "6h": "Last 6 Hours",
+      "24h": "Last 24 Hours"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": {
+        "prefix": "LOGIN ",
+        "with": "WITH"
+      },
+      "username": "USERNAME",
+      "password": "PASSWORD",
+      "submit": "SIGN IN",
+      "cancel": "CANCEL",
+      "error": {
+        "invalidCredentials": "Invalid username or password",
+        "serverError": "Server error, please try again",
+        "twitterValidation": "Twitter account validation failed: {{message}}",
+        "loginFailed": "Login failed",
+        "requestFailed": "Login request failed"
+      },
+      "register": "SIGN UP",
+      "twitterHint": "Login with X",
+      "loading": "LOGGING IN...",
+      "success": "Login successful!"
+    },
+    "userInfo": {
+      "logout": "Sign Out",
+      "openInX": "Open in X"
+    }
+  },
+  "view": {
+    "brief": "Brief",
+    "detail": "Detail"
+  }
+} 

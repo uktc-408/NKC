@@ -1,0 +1,250 @@
+{
+  "search": {
+    "placeholder": "搜索_",
+    "allLanguages": "所有语言",
+    "allTypes": "所有类型",
+    "allFollowers": "所有粉丝数",
+    "filteredKols": "筛选结果:",
+    "executeSearch": "执行搜索",
+    "filters": "筛选条件",
+    "clearAll": "清除全部",
+"allFocusAreas":"标签",
+    "progress": {
+      "gettingInfo": "获取信息中...",
+      "searchingUser": "搜索用户信息...",
+      "searchingProject": "搜索项目信息...",
+      "analyzingProject": "分析项目信息...",
+      "searchingTwitter": "搜索项目推特..."
+    },
+    "tweetDetails": "推文详情",
+    "searchResults": "搜索结果",
+    "history": {
+      "title": "搜索历史",
+      "clear": "清除历史",
+      "searching": "搜索中...",
+      "loading": "加载中...",
+      "noResults": "未找到结果"
+    }
+  },
+  "nav": {
+    "kols": "[KOLS_]",
+    "links": "[导航_]",
+    "console": "[控制台_]",
+    "switchToCN": "[中文_]",
+    "switchToEN": "[英文_]",
+      "about": "[关于_]"
+  },
+  "footer": {
+    "twitter": "X_",
+    "telegram": "TG_",
+    "lastUpdate": "最后更新_",
+    "slogan": "你的web3入口",
+    "allRightsReserved": "版权所有"
+  },
+
+  "console": {
+    "nav": {
+      "main": "控制台_",
+      "about": "关于我_",
+      "hunter": "HUNTER_"
+    },
+    "hunter": {
+      "comingSoon": "即将推出..."
+    }
+  },
+  "pagination": {
+    "prev": "上一页_",
+    "next": "下一页_",
+    "page": "页码_",
+    "go": "跳转_"
+  },
+  "common": {
+    "copy": {
+      "button": "复制地址",
+      "success": "已复制"
+    },
+    "translate": {
+      "button": "翻译",
+      "loading": "翻译中...",
+      "show": "显示翻译",
+      "hide": "收起翻译"
+    },
+    "expand": {
+      "show": "展开",
+      "hide": "收起"
+    },
+    "loading": "加载中...",
+    "noData": "暂无数据",
+    "error": {
+      "server": "服务器响应错误",
+      "copy": "复制失败",
+      "translate": "翻译错误",
+      "fetch": "获取数据失败"
+    },
+    "showMore": "展开",
+    "showMore1": "展开 ({{count}})",
+    "showLess": "收起",
+    "retry": "重新尝试"
+  },
+  "log": {
+    "connecting": "连接中...",
+    "loading": "加载中...",
+    "whyNotReply": "为什么不回复",
+    "says": "说",
+    "analysisFailed": "分析失败",
+    "foundTweets": "发现 {{count}} 条今日推文",
+    "noTweetsToday": "今日无推文",
+    "analysisCompleted": "完成分析 {{count}} 条推文",
+    "executingNewSearchBatch": "正在执行新一轮搜索",
+    "batchAnalysisStarted": "批量分析开始",
+    "activeUsers": "分析活跃用户数：{{count}}",
+    "newMessage": "最新日志",
+    "tweetSuccess": "推文成功",
+    "replySuccess": "回复成功",
+    "enterContent": "请输入搜索内容",
+    "invalidAddress": "请输入有效的地址",
+    "promotionCount": "已推广 {{count}} 次",
+    "smartMoneyCount": "{{count}} 个聪明钱",
+    "price": "价格",
+    "volume": "交易量",
+    "marketCap": "市值",
+    "priceChange": {
+      "h24": "24h",
+      "h1": "1h"
+    },
+    "unknownToken": "未知代币",
+    "contractAddress": "合约地址",
+    "socialLinks": {
+      "twitter": "Twitter",
+      "telegram": "Telegram",
+      "website": "网站"
+    },
+    "smartMoneySignal": "聪明钱信号",
+    "communitySignal": "社区信号",
+    "description": "描述",
+    "noDescription": "暂时没有描述",
+    "tokenInfo": "代币信息",
+    "created": "创建时间",
+    "pinned": {
+      "title": "欢迎使用 AIPHA",
+      "description": "我是 AIPHA，您的 Web3 AI 代理。我实时追踪聪明钱动向和分析社交趋势，帮您发现投资机会。",
+      "timestamp": "置顶消息"
+    }
+  },
+  "preview": {
+    "websitePreview": "网站预览",
+    "collapseHint": "(折叠可关闭声音,某些网站可能不支持嵌入显示，请尝试在新标签页中打开)",
+    "openInNewTab": "在新标签页中打开",
+    "enterFullscreen": "全屏显示",
+    "exitFullscreen": "退出全屏",
+    "clickToExpand": "点击展开查看网站预览",
+    "loadingFailed": "加载网站失败"
+  },
+  "analysis": {
+    "title": "AI分析",
+    "aiDisclaimer": "AI分析仅供参考，请自行判断（DYOR: Do Your Own Research）",
+    "description": "我是 AIPHA，您的 Web3 AI 代理。我实时追踪聪明钱动向和分析社交趋势，帮您发现投资机会。通过收集和分析链上数据、社交媒体信号和市场趋势，我为您提供全面的见解和AI驱动的分析。",
+    "description2": "AIPHA 是一个前沿的 Web3 AI 代理，它将实时智能资金追踪与社交情绪分析相结合。通过监控区块链交易和社交媒体趋势，它能够识别潜在的投资机会和市场动向。系统处理大量链上数据和社交信号，为用户提供新兴项目和市场动态的及时洞察。通过先进的AI算法，它分析收集到的信息并提供全面的市场情报，帮助用户做出明智的决策。"
+  },
+  "profile": {
+    "userInfo": "用户信息",
+    "openInTwitter": "",
+    "joinedAt": "加入时间: {{date}}",
+    "followers": "关注者",
+    "following": "正在关注",
+    "tweets": "推文",
+    "likes": "喜欢",
+    "website": "网站"
+  },
+  "tweets": {
+    "userTweets": "用户推文",
+    "tweetDetails": "推文详情",
+    "searchResults": "搜索结果",
+    "openInTwitter": "",
+    "searchInTwitter": ""
+  },
+  "errors": {
+    "connectionLost": "连接已断开",
+    "accountSuspended": "用户推特账号已被冻结,停止分析"
+  },
+  "token": {
+    "devTokens": {
+      "title": "开发者的其他代币",
+      "loading": "加载代币列表...",
+      "empty": "没有找到其他代币"
+    },
+    "description": {
+      "label": "描述:"
+    },
+    "analytics": {
+      "priceChart": "价格走势",
+      "distribution": "代币分布"
+    },
+    "chart": {
+      "loading": "加载图表中...",
+      "error": "加载图表失败"
+    }
+  },
+  "filter": {
+    "title": "筛选",
+    "timeRange": "时间范围",
+    "all": "全部",
+    "marketCap": "市值",
+    "min": "最小值",
+    "max": "最大值",
+    "signalTypes": "信号类型",
+    "community": "社区",
+    "smartMoney": "聪明钱",
+    "apply": "应用",
+    "cancel": "重置",
+    "promotion": "推广信号",
+    "promotionOnly": "仅显示首次推广"
+  },
+  "sound": {
+    "title": "声音设置",
+    "settings": "声音",
+    "enable": "启用声音",
+    "smartMoneyThreshold": "聪明钱阈值",
+    "communityThreshold": "社区推广阈值", 
+    "maxPlays": "最大播放次数",
+    "testSound": "测试声音",
+    "timeFilter": {
+      "label": "时间筛选",
+      "all": "全部时间",
+      "1h": "1小时内",
+      "6h": "6小时内",
+      "24h": "24小时内"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": {
+        "prefix": "使用",
+        "with": "账号登录"
+      },
+      "username": "用户名",
+      "password": "密码",
+      "submit": "登录",
+      "cancel": "取消",
+      "error": {
+        "invalidCredentials": "用户名或密码错误",
+        "serverError": "服务器错误，请重试",
+        "twitterValidation": "Twitter账号验证失败: {{message}}",
+        "loginFailed": "登录失败",
+        "requestFailed": "登录请求失败"
+      },
+      "register": "注册",
+      "twitterHint": "使用X账号登录",
+      "loading": "登录中...",
+      "success": "登录成功！"
+    },
+    "userInfo": {
+      "logout": "退出登录",
+      "openInX": "在 X 中打开"
+    }
+  },
+  "view": {
+    "brief": "简略",
+    "detail": "详情"
+  }
+} 

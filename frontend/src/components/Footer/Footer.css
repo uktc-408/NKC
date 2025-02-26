@@ -1,0 +1,68 @@
+/* Footer.css */
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8); /* Semi-transparent dark background */
+    color: #fff;
+    z-index: 200;
+    height: 50px; /* Fixed height */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the content horizontally */
+    padding: 5px 10px;
+  }
+  
+  /* Container for grouping all footer elements in the center */
+  .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px; /* Space between groups */
+  }
+  
+  /* Groups for left and right icons */
+  .footer-group {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  /* Center logo styling */
+  .footer-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footer-logo {
+    width: 40px; /* Adjust logo size as needed */
+    height: auto;
+  }
+  
+  /* Icon link styling */
+  .footer-link {
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  /* Blue for left group links */
+  .footer-link.blue {
+    color: #0bf; /* Light blue */
+  }
+  
+  .footer-link.blue:hover {
+    color: #08c;
+  }
+  
+  /* Pink for right group links */
+  .footer-link.pink {
+    color: #f0a; /* Light pink */
+  }
+  
+  .footer-link.pink:hover {
+    color: #d07;
+  }
+  

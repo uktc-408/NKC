@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  search-server:
+    build:
+      context: .
+      dockerfile: Dockerfile.search
+    environment:
+      - NODE_ENV=production
+      - MONGODB_URI=mongodb://root:123456@127.0.0.1:27017/searchbot?authSource=admin
+      - PORT=3000
+      - REDIS_URL=redis://:123456@127.0.0.1:6379
+      - SESSION_SECRET=your-session-secret-here
+    volumes:
+      - ./ssl:/app/ssl:ro
+    network_mode: "host"
+    restart: unless-stopped 
