@@ -24,7 +24,7 @@ const Footer = () => {
           </a>
         </div>
         <div className="footer-center">
-          <img src="/logo.png" alt="Logo" className="footer-logo" />
+        <img src="/NKC/logo.png" alt="Logo" className="footer-logo" />
         </div>
         <div className="footer-group footer-right">
           <a

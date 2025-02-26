@@ -5,7 +5,8 @@ import * as path from 'path'
 
 export default defineConfig({
   root: '',
-  base: '/',
+  // Set the base URL to your repository name, with leading and trailing slashes.
+  base: '/NKC/', 
   build: {
     outDir: 'dist',
     cssCodeSplit: true,
@@ -17,9 +18,9 @@ export default defineConfig({
     minify: 'terser',
     terserOptions: {
       compress: {
-        drop_console: true,  // 移除所有 console.*
-        drop_debugger: true, // 移除 debugger
-        pure_funcs: ['console.log'] // 或者只移除 console.log
+        drop_console: true,  // Remove all console.*
+        drop_debugger: true, // Remove debugger
+        pure_funcs: ['console.log'] // Or just remove console.log
       }
     }
   },
@@ -42,9 +43,11 @@ export default defineConfig({
             /<title>(.*?)<\/title>/,
             '<title>PolizAI</title>'
           )
+          // If your logo is in the public folder, reference it with an absolute path.
           .replace(
             /<link rel="icon"(.*?)>/,
-            '<link rel="icon" href="../public/logo.png">'
+            '<link rel="icon" href="/NKC/logo.png">'
+
           )
       }
     }

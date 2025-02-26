@@ -6,7 +6,8 @@ const LogoSection = ({ onStart }) => {
     <div id="logoContainer">
       <div id="fullscreenLogo" className="fullscreen">
         <div className="logo-wrapper">
-          <img src="/../public/logo.png" alt="Logo" className="logo" />
+        <img src="/NKC/logo.png" alt="Logo"className="logo"/>
+
           <button id="externalButton" className="neon-button" onClick={onStart}>
             { "START" }
           </button>
