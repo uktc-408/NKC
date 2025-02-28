@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import LogoSection from './components/LogoSection/LogoSection';
 import Terminal from './components/Terminal/Terminal';
@@ -7,11 +7,14 @@ import './App.css';
 
 function App() {
   const terminalRef = useRef(null);
+  const [showLogo, setShowLogo] = useState(true);
 
-  // Scrolls to the Terminal component when called
   const scrollToTerminal = () => {
     if (terminalRef.current) {
-      terminalRef.current.scrollIntoView({ behavior: 'smooth' });
+      window.scrollTo({
+        top: terminalRef.current.offsetTop,
+        behavior: 'smooth'
+      });
     }
   };
 
@@ -22,6 +25,7 @@ function App() {
           path="/"
           element={
             <div>
+              {/* LogoSection and Terminal are both in the normal flow */}
               <LogoSection onStart={scrollToTerminal} />
               <div ref={terminalRef}>
                 <Terminal />

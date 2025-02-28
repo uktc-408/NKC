@@ -6,10 +6,9 @@ const LogoSection = ({ onStart }) => {
     <div id="logoContainer">
       <div id="fullscreenLogo" className="fullscreen">
         <div className="logo-wrapper">
-        <img src="/NKC/logo.png" alt="Logo"className="logo"/>
-
+          <img src="/NKC/logo.png" alt="Logo" className="logo" />
           <button id="externalButton" className="neon-button" onClick={onStart}>
-            { "START" }
+            START
           </button>
         </div>
       </div>
@@ -17,4 +16,4 @@ const LogoSection = ({ onStart }) => {
   );
 };
 
-export default LogoSection; // <-- default export
+export default LogoSection;

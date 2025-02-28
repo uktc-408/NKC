@@ -1,67 +1,61 @@
 #logoContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Full viewport height */
-    width: 100vw; /* Full viewport width */
-    text-align: center;
-  }
-  
-  /* Center logo & button properly in a vertical stack */
-  .logo-wrapper {
-    display: flex;
-    flex-direction: column; /* Stacks elements vertically */
-    align-items: center;
-    justify-content: center;
-    gap: 20px; /* Space between logo & button */
-  }
-  
-  /* Bigger Logo with Neon Glow */
-  .logo {
-    width: 220px; /* Adjust as needed */
-    height: auto;
-    filter: drop-shadow(0 0 15px rgba(0, 183, 255, 0.9)); /* Neon glow effect */
-    transition: transform 0.3s ease-in-out, filter 0.3s;
-  }
+  width: 100vw;
+  min-height: 100vh;  /* Occupies full viewport height */
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* Remove position: fixed so it participates in scrolling */
+  /* z-index not needed here if it's not fixed */
+}
 
-  .neon-button {
-    background: rgba(0, 0, 0, 0.8);
-    color: rgba(0, 183, 255, 0.9); /* Neon blue text */
-    border: 1px solid rgba(0, 183, 255, 0.9);
-    box-shadow: 0 0 15px rgba(0, 183, 255, 0.8); /* Outer glow */
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 18px;
-    padding: 12px 24px;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-    border-radius: 8px; /* Rounded edges */
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .neon-button:hover {
-    background: rgba(0, 183, 255, 0.2);
-    box-shadow: 0 0 25px rgba(0, 183, 255, 1); /* Stronger glow on hover */
-    transform: scale(1.1);
-  }
-  
-  /* Button Click Effect */
-  .neon-button:active {
-    background: rgba(0, 183, 255, 0.3);
-    transform: scale(0.98);
-  }
-  
-  /* Button Flickering Glow Effect */
-  @keyframes flicker {
-    0% { opacity: 1; }
-    50% { opacity: 0.85; }
-    100% { opacity: 1; }
-  }
-  
-  .neon-button {
-    animation: flicker 1s infinite alternate ease-in-out;
-  }
-  
-  
+.logo-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.logo {
+  width: 220px;
+  height: auto;
+  filter: drop-shadow(0 0 15px rgba(0, 183, 255, 0.9));
+  transition: transform 0.3s ease-in-out, filter 0.3s;
+}
+
+.neon-button {
+  background: rgba(0, 0, 0, 0.8);
+  color: rgba(0, 183, 255, 0.9);
+  border: 1px solid rgba(0, 183, 255, 0.9);
+  box-shadow: 0 0 15px rgba(0, 183, 255, 0.8);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+  padding: 12px 24px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+  overflow: hidden;
+  animation: flicker 1s infinite alternate ease-in-out;
+}
+
+@keyframes flicker {
+  0% { opacity: 1; }
+  50% { opacity: 0.85; }
+  100% { opacity: 1; }
+}
+
+.neon-button:hover {
+  background: rgba(0, 183, 255, 0.2);
+  box-shadow: 0 0 25px rgba(0, 183, 255, 1);
+  transform: scale(1.1);
+}
+
+.neon-button:active {
+  background: rgba(0, 183, 255, 0.3);
+  transform: scale(0.98);
+}
