@@ -7,6 +7,7 @@
   align-items: center;
   justify-content: center;
   padding: 20px 0;
+  overflow-x: hidden; /* Prevent horizontal overflow */
 }
 
 /* Desktop Terminal Styling */
@@ -21,6 +22,7 @@
   border: 1px solid #e219d1;
 }
 
+/* Ensure internal elements respect sizing */
 .static-line {
   margin: 5px 0;
 }
@@ -44,19 +46,18 @@
 
 /* Mobile-specific styling */
 .terminal-container.mobile {
-  /* You can tweak padding or margins if needed */
   padding: 10px 0;
 }
 
-/* For mobile, maybe increase the min-height to make it less compressed */
+/* Mobile terminal styling */
 .terminal-mobile {
   background-color: hsla(0, 0%, 0%, 0.8);
   color: #e219d1;
   padding: 20px;
   max-width: 95%;
   width: 100%;
-  min-height: 500px; /* Give a bit more vertical space */
+  min-height: 500px;
   overflow-y: auto;
   border: 1px solid #e219d1;
-  margin: 0 auto; /* This centers it horizontally */
+  margin: 0 auto; /* Center horizontally */
 }

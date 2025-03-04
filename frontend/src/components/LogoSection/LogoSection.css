@@ -1,13 +1,11 @@
 #logoContainer {
-  width: 100vw;
+  width: 100%; /* Changed from 100vw to 100% */
   min-height: 100vh;  /* Occupies full viewport height */
   background: transparent;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  /* Remove position: fixed so it participates in scrolling */
-  /* z-index not needed here if it's not fixed */
 }
 
 .logo-wrapper {
