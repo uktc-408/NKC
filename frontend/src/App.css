@@ -9,7 +9,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
 
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -18,18 +17,15 @@
 ::-webkit-scrollbar {
   width: 8px;
 }
-
 ::-webkit-scrollbar-track {
   background: transparent;
   border-radius: 4px;
 }
-
 ::-webkit-scrollbar-thumb {
   background: rgba(6, 182, 212, 0.3);
   border-radius: 4px;
   transition: all 0.3s;
 }
-
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(6, 182, 212, 0.5);
 }
@@ -40,14 +36,7 @@
   scrollbar-color: rgba(6, 182, 212, 0.3) transparent;
 }
 
-/* Global dropdown option styles */
-/* option {
-  color: white !important;
-  background-color: #1a1a1a !important;
-}  */
-
 /* Remove default outline for all buttons and input fields */
-
 input,
 select,
 textarea {
@@ -56,21 +45,16 @@ textarea {
   box-shadow: none !important;
 }
 
-
-
 /* Background GIF */
 body, html {
-  background: none !important; /* Remove any existing background */
+  background: none; /* Removed !important so it can be overridden */
 }
 
 body {
-  background-image: url("/animationV2.gif") !important;
-  background-size: cover !important;
-  background-repeat: no-repeat !important;
-  background-attachment: fixed !important;
-  background-position: center !important;
+  background-image: url("/animationV2.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll; /* Changed from fixed so the shift is more visible */
+  background-position: 10% 50%;  /* Shift the image far to the left horizontally */
   z-index: -1;
-}
-.search-history {
-  min-height: 50px; /* Reserve space even if no results are shown */
 }

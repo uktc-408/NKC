@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import LogoSection from './components/LogoSection/LogoSection';
 import Terminal from './components/Terminal/Terminal';
@@ -17,6 +17,20 @@ function App() {
       });
     }
   };
+  useEffect(() => {
+    if (window.innerWidth < 768) {
+      // Randomly choose between "20% 50%" and "80% 50%"
+      const randomPosition = Math.random() > 0.5 ? '30% 50%' : '70% 50%';
+      document.body.style.backgroundPosition = randomPosition;
+      // You might also want to change backgroundAttachment if needed:
+      document.body.style.backgroundAttachment = 'scroll';
+      console.log('Background position set to:', randomPosition);
+    } else {
+      document.body.style.backgroundPosition = '50% 50%';
+      document.body.style.backgroundAttachment = 'fixed';
+      console.log('Background position set to center');
+    }
+  }, []);
 
   return (
     <Router>
@@ -25,7 +39,6 @@ function App() {
           path="/"
           element={
             <div>
-              {/* LogoSection and Terminal are both in the normal flow */}
               <LogoSection onStart={scrollToTerminal} />
               <div ref={terminalRef}>
                 <Terminal />
