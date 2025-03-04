@@ -71,4 +71,6 @@ body {
   background-position: center !important;
   z-index: -1;
 }
-
+.search-history {
+  min-height: 50px; /* Reserve space even if no results are shown */
+}

@@ -1,12 +1,30 @@
+import React, { useState } from 'react';
 import { FaSearch } from 'react-icons/fa';
+import './MobileSearchForm.css';
 
-export default function MobileSearchButton({ onClick }) {
+export default function MobileSearchForm({ onSubmit }) {
+  const [input, setInput] = useState('');
+
+  const handleSubmit = (e) => {
+    e.preventDefault(); // Prevent default form submission (which reloads the page)
+    if (onSubmit) {
+      onSubmit(input);
+    }
+    setInput(''); // Clear input after submission (optional)
+  };
+
   return (
-    <button
-      onClick={onClick}
-      className="nav-social-icon p-2 rounded-lg bg-gray-800/50 border border-cyan-500/20 text-gray-500 hover:text-cyan-400 hover:border-cyan-500/50 transition-colors flex items-center justify-center"
-    >
-      <FaSearch className="w-5 h-5" />
-    </button>
+    <form onSubmit={handleSubmit} className="mobile-search-form">
+      <input
+        type="text"
+        value={input}
+        onChange={(e) => setInput(e.target.value)}
+        placeholder="Type command..."
+        className="mobile-search-input"
+      />
+      <button type="submit" className="mobile-search-button">
+        <FaSearch className="icon" />
+      </button>
+    </form>
   );
-} 
+}
